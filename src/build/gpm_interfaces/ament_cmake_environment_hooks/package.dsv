@@ -1,0 +1,4 @@
+source;share/gpm_interfaces/local_setup.bash
+source;share/gpm_interfaces/local_setup.dsv
+source;share/gpm_interfaces/local_setup.sh
+source;share/gpm_interfaces/local_setup.zsh

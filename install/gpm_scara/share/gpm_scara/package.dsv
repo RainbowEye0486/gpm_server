@@ -1,0 +1,8 @@
+source;share/gpm_scara/hook/cmake_prefix_path.ps1
+source;share/gpm_scara/hook/cmake_prefix_path.dsv
+source;share/gpm_scara/hook/cmake_prefix_path.sh
+source;share/gpm_scara/local_setup.bash
+source;share/gpm_scara/local_setup.dsv
+source;share/gpm_scara/local_setup.ps1
+source;share/gpm_scara/local_setup.sh
+source;share/gpm_scara/local_setup.zsh

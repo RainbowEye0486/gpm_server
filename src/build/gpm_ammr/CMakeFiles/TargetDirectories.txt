@@ -1,0 +1,10 @@
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/install/strip.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/edit_cache.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/test.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/install.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/list_install_components.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/rebuild_cache.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/ammr_handler.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/install/local.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/gpm_ammr_uninstall.dir
+/home/airobots/gpm_server/src/build/gpm_ammr/CMakeFiles/uninstall.dir

@@ -1,0 +1,6 @@
+{
+  "package_name": "gpm_interfaces",
+  "non_idl_tuples": [
+    "/home/airobots/gpm_server/src/gpm_interfaces:msg/Status.msg"
+  ]
+}

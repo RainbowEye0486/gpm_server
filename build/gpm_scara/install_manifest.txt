@@ -1,0 +1,16 @@
+/home/airobots/gpm_server/install/gpm_scara/lib/gpm_scara/scara_handler
+/home/airobots/gpm_server/install/gpm_scara/share/ament_index/resource_index/package_run_dependencies/gpm_scara
+/home/airobots/gpm_server/install/gpm_scara/share/ament_index/resource_index/parent_prefix_path/gpm_scara
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/environment/ament_prefix_path.sh
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/environment/ament_prefix_path.dsv
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/environment/path.sh
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/environment/path.dsv
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/local_setup.bash
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/local_setup.sh
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/local_setup.zsh
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/local_setup.dsv
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/package.dsv
+/home/airobots/gpm_server/install/gpm_scara/share/ament_index/resource_index/packages/gpm_scara
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/cmake/gpm_scaraConfig.cmake
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/cmake/gpm_scaraConfig-version.cmake
+/home/airobots/gpm_server/install/gpm_scara/share/gpm_scara/package.xml
