@@ -21,7 +21,10 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Status.msg"
-  
+  "srv/Command.srv"
+  "srv/AmmrReport.srv"
+  "srv/ConveyerReport.srv"
+  "srv/ScaraReport.srv"
  )
 
 if(BUILD_TESTING)

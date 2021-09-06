@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gpm_interfaces/srv/AmmrReport.srv
+// generated code does not contain a copyright notice
+
+
+module gpm_interfaces {
+  module srv {
+    struct AmmrReport_Request {
+      int64 slot1;
+
+      int64 slot2;
+
+      string position;
+    };
+    struct AmmrReport_Response {
+      boolean receive;
+    };
+  };
+};

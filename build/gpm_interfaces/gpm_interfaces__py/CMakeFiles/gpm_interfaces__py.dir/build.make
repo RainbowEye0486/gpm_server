@@ -53,53 +53,102 @@ CMAKE_BINARY_DIR = /home/airobots/gpm_server/build/gpm_interfaces
 # Include the progress variables for this target.
 include gpm_interfaces__py/CMakeFiles/gpm_interfaces__py.dir/progress.make
 
-gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_c.c
 gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/msg/_status.py
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_command.py
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_ammr_report.py
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_conveyer_report.py
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_scara_report.py
 gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/msg/__init__.py
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/__init__.py
 gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/msg/_status_s.c
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_command_s.c
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_ammr_report_s.c
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_conveyer_report_s.c
+gpm_interfaces__py/CMakeFiles/gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_scara_report_s.c
 
 
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action.py.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_support.c.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl.py.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_support.c.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/gpm_interfaces/msg/Status.idl
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action.py.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_support.c.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl.py.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_support.c.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_adapter/gpm_interfaces/msg/Status.idl
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_adapter/gpm_interfaces/srv/Command.idl
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_adapter/gpm_interfaces/srv/AmmrReport.idl
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_adapter/gpm_interfaces/srv/ConveyerReport.idl
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_adapter/gpm_interfaces/srv/ScaraReport.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/airobots/gpm_server/build/gpm_interfaces/gpm_interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/airobots/gpm_server/build/gpm_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/airobots/gpm_server/build/gpm_interfaces/gpm_interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/airobots/gpm_server/build/gpm_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_c"
 
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 
-rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/gpm_interfaces/msg/_status.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/gpm_interfaces/msg/_status.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/msg/_status.py
 
-rosidl_generator_py/gpm_interfaces/msg/__init__.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/gpm_interfaces/srv/_command.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_command.py
+
+rosidl_generator_py/gpm_interfaces/srv/_ammr_report.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_ammr_report.py
+
+rosidl_generator_py/gpm_interfaces/srv/_conveyer_report.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_conveyer_report.py
+
+rosidl_generator_py/gpm_interfaces/srv/_scara_report.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_scara_report.py
+
+rosidl_generator_py/gpm_interfaces/msg/__init__.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/msg/__init__.py
 
-rosidl_generator_py/gpm_interfaces/msg/_status_s.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/gpm_interfaces/srv/__init__.py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/__init__.py
+
+rosidl_generator_py/gpm_interfaces/msg/_status_s.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/msg/_status_s.c
 
+rosidl_generator_py/gpm_interfaces/srv/_command_s.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_command_s.c
+
+rosidl_generator_py/gpm_interfaces/srv/_ammr_report_s.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_ammr_report_s.c
+
+rosidl_generator_py/gpm_interfaces/srv/_conveyer_report_s.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_conveyer_report_s.c
+
+rosidl_generator_py/gpm_interfaces/srv/_scara_report_s.c: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/gpm_interfaces/srv/_scara_report_s.c
+
 gpm_interfaces__py: gpm_interfaces__py/CMakeFiles/gpm_interfaces__py
-gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/_gpm_interfaces_s.ep.rosidl_typesupport_c.c
 gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/msg/_status.py
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_command.py
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_ammr_report.py
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_conveyer_report.py
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_scara_report.py
 gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/msg/__init__.py
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/__init__.py
 gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/msg/_status_s.c
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_command_s.c
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_ammr_report_s.c
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_conveyer_report_s.c
+gpm_interfaces__py: rosidl_generator_py/gpm_interfaces/srv/_scara_report_s.c
 gpm_interfaces__py: gpm_interfaces__py/CMakeFiles/gpm_interfaces__py.dir/build.make
 
 .PHONY : gpm_interfaces__py

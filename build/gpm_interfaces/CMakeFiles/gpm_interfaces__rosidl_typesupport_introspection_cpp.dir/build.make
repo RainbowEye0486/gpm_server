@@ -66,11 +66,39 @@ rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_ty
 rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
 rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/gpm_interfaces/msg/Status.idl
+rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/gpm_interfaces/srv/Command.idl
+rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/gpm_interfaces/srv/AmmrReport.idl
+rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/gpm_interfaces/srv/ConveyerReport.idl
+rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/gpm_interfaces/srv/ScaraReport.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
 
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__rosidl_typesupport_introspection_cpp.hpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__rosidl_typesupport_introspection_cpp.hpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__rosidl_typesupport_introspection_cpp.hpp
+
 rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp
 
 CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.o: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.o: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp
@@ -85,21 +113,81 @@ CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_types
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.s
 
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.o: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.o: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.o -c /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp > CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.i
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.s
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.o: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.o: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.o -c /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp > CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.i
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.s
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.o: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.o: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.o -c /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp > CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.i
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.s
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.o: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.o: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.o -c /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp > CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.i
+
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airobots/gpm_server/build/gpm_interfaces/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp -o CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.s
+
 # Object files for target gpm_interfaces__rosidl_typesupport_introspection_cpp
 gpm_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
-"CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.o"
+"CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.o" \
+"CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.o" \
+"CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.o" \
+"CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.o" \
+"CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.o"
 
 # External object files for target gpm_interfaces__rosidl_typesupport_introspection_cpp
 gpm_interfaces__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp.o
+libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp.o
+libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp.o
+libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp.o
+libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp.o
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/foxy/lib/librcutils.so
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
 libgpm_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libgpm_interfaces__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libgpm_interfaces__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -112,7 +200,15 @@ CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/clean:
 .PHONY : CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/clean
 
 CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/msg/detail/status__type_support.cpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/command__type_support.cpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/ammr_report__type_support.cpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/conveyer_report__type_support.cpp
+CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/gpm_interfaces/srv/detail/scara_report__type_support.cpp
 	cd /home/airobots/gpm_server/build/gpm_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/airobots/gpm_server/src/gpm_interfaces /home/airobots/gpm_server/src/gpm_interfaces /home/airobots/gpm_server/build/gpm_interfaces /home/airobots/gpm_server/build/gpm_interfaces /home/airobots/gpm_server/build/gpm_interfaces/CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_cpp.dir/depend
 

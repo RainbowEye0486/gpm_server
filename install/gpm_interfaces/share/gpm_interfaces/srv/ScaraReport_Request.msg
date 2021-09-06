@@ -1,0 +1,5 @@
+string action
+int64 dummy_wafer
+int64 dummy_cassette
+int64 slot_num
+string faild

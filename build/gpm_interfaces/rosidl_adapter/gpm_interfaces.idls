@@ -1,1 +1,5 @@
 /home/airobots/gpm_server/build/gpm_interfaces/rosidl_adapter/gpm_interfaces:msg/Status.idl
+/home/airobots/gpm_server/build/gpm_interfaces/rosidl_adapter/gpm_interfaces:srv/Command.idl
+/home/airobots/gpm_server/build/gpm_interfaces/rosidl_adapter/gpm_interfaces:srv/AmmrReport.idl
+/home/airobots/gpm_server/build/gpm_interfaces/rosidl_adapter/gpm_interfaces:srv/ConveyerReport.idl
+/home/airobots/gpm_server/build/gpm_interfaces/rosidl_adapter/gpm_interfaces:srv/ScaraReport.idl

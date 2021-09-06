@@ -19,6 +19,7 @@ extern "C"
 
 // Include directives for member types
 // Member 'device'
+// Member 'status'
 // Member 'msg'
 #include "rosidl_runtime_c/string.h"
 
@@ -27,6 +28,7 @@ typedef struct gpm_interfaces__msg__Status
 {
   rosidl_runtime_c__String device;
   bool error;
+  rosidl_runtime_c__String status;
   rosidl_runtime_c__String msg;
 } gpm_interfaces__msg__Status;
 

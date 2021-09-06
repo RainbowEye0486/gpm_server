@@ -1,0 +1,4 @@
+source;share/gpm_conveyer/local_setup.bash
+source;share/gpm_conveyer/local_setup.dsv
+source;share/gpm_conveyer/local_setup.sh
+source;share/gpm_conveyer/local_setup.zsh

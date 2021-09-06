@@ -10,6 +10,8 @@ module gpm_interfaces {
 
       boolean error;
 
+      string status;
+
       string msg;
     };
   };

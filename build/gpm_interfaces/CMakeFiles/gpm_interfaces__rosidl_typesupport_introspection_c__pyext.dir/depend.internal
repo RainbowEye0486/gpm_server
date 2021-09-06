@@ -101,3 +101,15 @@ CMakeFiles/gpm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_
  rosidl_generator_c/gpm_interfaces/msg/detail/status__struct.h
  rosidl_generator_c/gpm_interfaces/msg/detail/status__type_support.h
  rosidl_generator_c/gpm_interfaces/msg/rosidl_generator_c__visibility_control.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/ammr_report__functions.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/ammr_report__struct.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/ammr_report__type_support.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/command__functions.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/command__struct.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/command__type_support.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/conveyer_report__functions.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/conveyer_report__struct.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/conveyer_report__type_support.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/scara_report__functions.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/scara_report__struct.h
+ rosidl_generator_c/gpm_interfaces/srv/detail/scara_report__type_support.h

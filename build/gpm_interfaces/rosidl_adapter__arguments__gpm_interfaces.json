@@ -1,6 +1,10 @@
 {
   "package_name": "gpm_interfaces",
   "non_idl_tuples": [
-    "/home/airobots/gpm_server/src/gpm_interfaces:msg/Status.msg"
+    "/home/airobots/gpm_server/src/gpm_interfaces:msg/Status.msg",
+    "/home/airobots/gpm_server/src/gpm_interfaces:srv/Command.srv",
+    "/home/airobots/gpm_server/src/gpm_interfaces:srv/AmmrReport.srv",
+    "/home/airobots/gpm_server/src/gpm_interfaces:srv/ConveyerReport.srv",
+    "/home/airobots/gpm_server/src/gpm_interfaces:srv/ScaraReport.srv"
   ]
 }

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gpm_interfaces/srv/Command.srv
+// generated code does not contain a copyright notice
+
+
+module gpm_interfaces {
+  module srv {
+    struct Command_Request {
+      string action;
+
+      string destination;
+    };
+    struct Command_Response {
+      string device;
+
+      boolean accept;
+    };
+  };
+};

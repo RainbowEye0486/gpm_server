@@ -14,6 +14,7 @@
 
 // Include directives for member types
 // Member `device`
+// Member `status`
 // Member `msg`
 #include "rosidl_runtime_c/string_functions.h"
 
@@ -36,7 +37,7 @@ void Status__rosidl_typesupport_introspection_c__Status_fini_function(void * mes
   gpm_interfaces__msg__Status__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember Status__rosidl_typesupport_introspection_c__Status_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember Status__rosidl_typesupport_introspection_c__Status_message_member_array[4] = {
   {
     "device",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -68,6 +69,21 @@ static rosidl_typesupport_introspection_c__MessageMember Status__rosidl_typesupp
     NULL  // resize(index) function pointer
   },
   {
+    "status",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(gpm_interfaces__msg__Status, status),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
     "msg",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
@@ -87,7 +103,7 @@ static rosidl_typesupport_introspection_c__MessageMember Status__rosidl_typesupp
 static const rosidl_typesupport_introspection_c__MessageMembers Status__rosidl_typesupport_introspection_c__Status_message_members = {
   "gpm_interfaces__msg",  // message namespace
   "Status",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(gpm_interfaces__msg__Status),
   Status__rosidl_typesupport_introspection_c__Status_message_member_array,  // message members
   Status__rosidl_typesupport_introspection_c__Status_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -36,16 +36,32 @@ private:
   ::gpm_interfaces::msg::Status msg_;
 };
 
+class Init_Status_status
+{
+public:
+  explicit Init_Status_status(::gpm_interfaces::msg::Status & msg)
+  : msg_(msg)
+  {}
+  Init_Status_msg status(::gpm_interfaces::msg::Status::_status_type arg)
+  {
+    msg_.status = std::move(arg);
+    return Init_Status_msg(msg_);
+  }
+
+private:
+  ::gpm_interfaces::msg::Status msg_;
+};
+
 class Init_Status_error
 {
 public:
   explicit Init_Status_error(::gpm_interfaces::msg::Status & msg)
   : msg_(msg)
   {}
-  Init_Status_msg error(::gpm_interfaces::msg::Status::_error_type arg)
+  Init_Status_status error(::gpm_interfaces::msg::Status::_error_type arg)
   {
     msg_.error = std::move(arg);
-    return Init_Status_msg(msg_);
+    return Init_Status_status(msg_);
   }
 
 private:

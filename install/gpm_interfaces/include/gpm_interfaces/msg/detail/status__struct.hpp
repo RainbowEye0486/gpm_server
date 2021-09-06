@@ -39,12 +39,14 @@ struct Status_
     {
       this->device = "";
       this->error = false;
+      this->status = "";
       this->msg = "";
     }
   }
 
   explicit Status_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   : device(_alloc),
+    status(_alloc),
     msg(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
@@ -52,6 +54,7 @@ struct Status_
     {
       this->device = "";
       this->error = false;
+      this->status = "";
       this->msg = "";
     }
   }
@@ -63,6 +66,9 @@ struct Status_
   using _error_type =
     bool;
   _error_type error;
+  using _status_type =
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
+  _status_type status;
   using _msg_type =
     std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _msg_type msg;
@@ -78,6 +84,12 @@ struct Status_
     const bool & _arg)
   {
     this->error = _arg;
+    return *this;
+  }
+  Type & set__status(
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
+  {
+    this->status = _arg;
     return *this;
   }
   Type & set__msg(
@@ -133,6 +145,9 @@ struct Status_
       return false;
     }
     if (this->error != other.error) {
+      return false;
+    }
+    if (this->status != other.status) {
       return false;
     }
     if (this->msg != other.msg) {

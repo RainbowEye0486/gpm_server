@@ -54,6 +54,18 @@ CMAKE_BINARY_DIR = /home/airobots/gpm_server/build/gpm_interfaces
 include CMakeFiles/gpm_interfaces.dir/progress.make
 
 CMakeFiles/gpm_interfaces: /home/airobots/gpm_server/src/gpm_interfaces/msg/Status.msg
+CMakeFiles/gpm_interfaces: /home/airobots/gpm_server/src/gpm_interfaces/srv/Command.srv
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/Command_Request.msg
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/Command_Response.msg
+CMakeFiles/gpm_interfaces: /home/airobots/gpm_server/src/gpm_interfaces/srv/AmmrReport.srv
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/AmmrReport_Request.msg
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/AmmrReport_Response.msg
+CMakeFiles/gpm_interfaces: /home/airobots/gpm_server/src/gpm_interfaces/srv/ConveyerReport.srv
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/ConveyerReport_Request.msg
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/ConveyerReport_Response.msg
+CMakeFiles/gpm_interfaces: /home/airobots/gpm_server/src/gpm_interfaces/srv/ScaraReport.srv
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/ScaraReport_Request.msg
+CMakeFiles/gpm_interfaces: rosidl_cmake/srv/ScaraReport_Response.msg
 
 
 gpm_interfaces: CMakeFiles/gpm_interfaces

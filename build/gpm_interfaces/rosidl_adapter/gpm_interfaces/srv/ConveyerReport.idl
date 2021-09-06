@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gpm_interfaces/srv/ConveyerReport.srv
+// generated code does not contain a copyright notice
+
+
+module gpm_interfaces {
+  module srv {
+    struct ConveyerReport_Request {
+      int64 id;
+
+      boolean empty;
+
+      int8 wafer_num;
+    };
+    struct ConveyerReport_Response {
+      boolean receive;
+    };
+  };
+};

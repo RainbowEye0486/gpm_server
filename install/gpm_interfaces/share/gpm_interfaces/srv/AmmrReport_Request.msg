@@ -1,0 +1,3 @@
+int64 slot1
+int64 slot2
+string position

@@ -5,6 +5,14 @@ CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/
 CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/msg/detail/status__struct.hpp
 CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/msg/detail/status__traits.hpp
 CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/msg/status.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/command.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/detail/command__builder.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/detail/command__struct.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/detail/command__traits.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/detail/scara_report__builder.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/detail/scara_report__struct.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/detail/scara_report__traits.hpp
+CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/install/gpm_interfaces/include/gpm_interfaces/srv/scara_report.hpp
 CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /home/airobots/gpm_server/src/gpm_scara/src/scara_handler.cpp
 CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 CMakeFiles/scara_handler.dir/src/scara_handler.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp

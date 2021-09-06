@@ -1,0 +1,3 @@
+int64 id 
+bool empty
+int8 wafer_num

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gpm_interfaces/srv/ScaraReport.srv
+// generated code does not contain a copyright notice
+
+
+module gpm_interfaces {
+  module srv {
+    struct ScaraReport_Request {
+      string action;
+
+      int64 dummy_wafer;
+
+      int64 dummy_cassette;
+
+      int64 slot_num;
+
+      string faild;
+    };
+    struct ScaraReport_Response {
+      boolean receive;
+    };
+  };
+};

@@ -11,6 +11,7 @@
 
 // Include directives for member types
 // Member `device`
+// Member `status`
 // Member `msg`
 #include "rosidl_runtime_c/string_functions.h"
 
@@ -26,6 +27,11 @@ gpm_interfaces__msg__Status__init(gpm_interfaces__msg__Status * msg)
     return false;
   }
   // error
+  // status
+  if (!rosidl_runtime_c__String__init(&msg->status)) {
+    gpm_interfaces__msg__Status__fini(msg);
+    return false;
+  }
   // msg
   if (!rosidl_runtime_c__String__init(&msg->msg)) {
     gpm_interfaces__msg__Status__fini(msg);
@@ -43,6 +49,8 @@ gpm_interfaces__msg__Status__fini(gpm_interfaces__msg__Status * msg)
   // device
   rosidl_runtime_c__String__fini(&msg->device);
   // error
+  // status
+  rosidl_runtime_c__String__fini(&msg->status);
   // msg
   rosidl_runtime_c__String__fini(&msg->msg);
 }

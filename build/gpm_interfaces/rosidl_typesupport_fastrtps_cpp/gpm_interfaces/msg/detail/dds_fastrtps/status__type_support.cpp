@@ -36,6 +36,8 @@ cdr_serialize(
   cdr << ros_message.device;
   // Member: error
   cdr << (ros_message.error ? true : false);
+  // Member: status
+  cdr << ros_message.status;
   // Member: msg
   cdr << ros_message.msg;
   return true;
@@ -56,6 +58,9 @@ cdr_deserialize(
     cdr >> tmp;
     ros_message.error = tmp ? true : false;
   }
+
+  // Member: status
+  cdr >> ros_message.status;
 
   // Member: msg
   cdr >> ros_message.msg;
@@ -86,6 +91,10 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: status
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.status.size() + 1);
   // Member: msg
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -126,6 +135,18 @@ max_serialized_size_Status(
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: status
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   // Member: msg

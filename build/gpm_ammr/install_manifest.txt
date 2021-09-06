@@ -1,3 +1,4 @@
+/home/airobots/gpm_server/install/gpm_ammr/lib/gpm_ammr/ammr_handler
 /home/airobots/gpm_server/install/gpm_ammr/share/ament_index/resource_index/package_run_dependencies/gpm_ammr
 /home/airobots/gpm_server/install/gpm_ammr/share/ament_index/resource_index/parent_prefix_path/gpm_ammr
 /home/airobots/gpm_server/install/gpm_ammr/share/gpm_ammr/environment/ament_prefix_path.sh

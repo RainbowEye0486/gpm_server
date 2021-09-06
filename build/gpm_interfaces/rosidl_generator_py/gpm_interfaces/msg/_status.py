@@ -55,18 +55,21 @@ class Status(metaclass=Metaclass_Status):
     __slots__ = [
         '_device',
         '_error',
+        '_status',
         '_msg',
     ]
 
     _fields_and_field_types = {
         'device': 'string',
         'error': 'boolean',
+        'status': 'string',
         'msg': 'string',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
@@ -76,6 +79,7 @@ class Status(metaclass=Metaclass_Status):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.device = kwargs.get('device', str())
         self.error = kwargs.get('error', bool())
+        self.status = kwargs.get('status', str())
         self.msg = kwargs.get('msg', str())
 
     def __repr__(self):
@@ -111,6 +115,8 @@ class Status(metaclass=Metaclass_Status):
             return False
         if self.error != other.error:
             return False
+        if self.status != other.status:
+            return False
         if self.msg != other.msg:
             return False
         return True
@@ -145,6 +151,19 @@ class Status(metaclass=Metaclass_Status):
                 isinstance(value, bool), \
                 "The 'error' field must be of type 'bool'"
         self._error = value
+
+    @property
+    def status(self):
+        """Message field 'status'."""
+        return self._status
+
+    @status.setter
+    def status(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'status' field must be of type 'str'"
+        self._status = value
 
     @property
     def msg(self):
